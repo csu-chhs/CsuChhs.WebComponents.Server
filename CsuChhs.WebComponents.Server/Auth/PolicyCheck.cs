@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace CsuChhs.WebComponents.Server.Auth;
 
-public class PolicyCheck
+public class PolicyCheck : IPolicyCheck
 {
     private readonly IAuthorizationService _authorizationService;
 
